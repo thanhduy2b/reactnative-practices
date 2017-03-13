@@ -56,7 +56,7 @@ export class SignIn extends Component {
           <Text style={styles.signinText}>Sign In</Text>
         </View>
       </TouchableOpacity>
-      );
+    );
   }
 
   render() {
@@ -77,7 +77,7 @@ export class SignIn extends Component {
             onChangeText={(text) => this.setState({username: text})}
             autoCapitalize={'none'}
             keyboardType={'email-address'}
-            placeholder={'UserName'}
+            placeholder={'Username'}
             imageIcon={require('assets/images/user_name.png')} />
           <CustomTextInput
             onChangeText={(text) => this.setState({password: text})}
